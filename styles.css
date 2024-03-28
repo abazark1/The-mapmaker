@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    background: url("theme.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#grid-container {
+
+    float: left;
+    border: 1px solid #333;
+}
+
+#gridTable {
+    border: 10px solid beige;
+    background-color:#ffcc80;
+    border-collapse: collapse;
+}
+
+#gridTable td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 40px; 
+    height: 40px; 
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+.empty {
+    background-color: white;
+}
+
+#previewContainer {
+    margin-left: 20px; 
+    margin-top: 20px;
+    background-color:#ffcc80;
+    border: 10px solid beige;
+    text-align: center;
+}
+
+#previewTable {
+    background-color:#ffcc80;
+    border-collapse: collapse;
+    border: 10px solid beige;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+#previewTable td {
+    width: 40px; 
+    height: 40px; 
+    border: 1px solid #000;
+}
+
+#previewButtons {
+    margin-top: 10px; 
+}
+
+
+#timeUnit {
+    margin-top: 10px; 
+}
+
+#seasons-container {
+    margin: 20px;
+    margin-left: 20px; 
+    width: 200px;
+}
+
+#seasons {
+    background-color: #eee; 
+    border: 10px solid beige;
+    width: 200px;
+}
+
+#spring {
+    background-color: #e1c0d4ea; 
+}
+
+#summer {
+    background-color: #c2f0c2; 
+}
+
+#autumn {
+    background-color: #ffcc80; 
+}
+
+#winter {
+    background-color: #b3e0ff; 
+}
+
+#total {
+    background-color: #d9d9d9;
+    margin-top: 10px; 
+}
+
+#currentSeasonContainer {
+    border: 10px solid beige;
+    margin-top: 20px; 
+    background-color: #ffcc80;
+    width: 200px;
+}
+
+#currentSeasonTime {
+    margin-top: 5px; 
+}
+
+#missions {
+    width: 300px;
+    background-color: #ffcc80;
+    margin: 30px; 
+    font-size: small;
+}
+
+#win {
+    margin-top: 20px; 
+}
+
+div.active {
+    border: 10px solid beige;
+    background-color: lightcyan; 
+    font-weight: bold; 
+}
+
+div.inactive {
+    border: 10px solid beige;
+
+    background-color: #ffcc80; 
+}
+
+.buttons {
+    background-color: lightcyan; 
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+}
+
+#title{
+    background-color: #ffcc80;
+    border: 10px solid beige;
+}
